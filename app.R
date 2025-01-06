@@ -17,7 +17,7 @@ library(shinybusy)
 
 
 
-# Define UI for application that draws a histogram
+
 
 ui <- fluidPage(
   useShinyjs(),
@@ -75,7 +75,7 @@ ui <- fluidPage(
 
 
 
-# Define server logic required to draw a histogram
+
 
 server <-function(input, output, session) {
   
