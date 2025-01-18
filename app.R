@@ -115,7 +115,7 @@ server <-function(input, output, session) {
       
       monster_indices <- sapply(monsters$results, function(monster) monster$index)
       
-      updateSelectInput(session, "monster_name", choices = setNames(monster_indices, monster_names))
+      updateSelectInput(session, "monster_name", choices = c(Choose = '', setNames(monster_indices, monster_names)))
       
     } else {
       
